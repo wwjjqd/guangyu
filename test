@@ -1,0 +1,14 @@
+
+public class test {
+    public static void main(String[] args) {   
+		wwj w=new wwj();
+		String t1="abcabcbb";//3
+		String t2="abdcssdfefgr";//5
+		String t3="asdfghhzxcvbnm";//8
+		String t4="acbdhgfyksfksdhfgadfgrea";//10
+		String t5="adsohfdbvasudghmsdnvahdghadlvnaoe";//9
+		if(w.test(t1)==3&&w.test(t2)==5&&w.test(t3)==8&&w.test(t4)==10&&w.test(t5)==9){
+			System.out.print("success!");	
+		}else{System.out.print("fail!");}
+	}
+}
